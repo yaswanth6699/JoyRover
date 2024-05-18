@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { StyledButton } from "../../../GlobalStyles";
 import { useMemoryGameStore } from "../store/useMemoryGameStore";
 import { GridContainer } from "../styles";
@@ -5,11 +6,15 @@ import { randomizeNumbers } from "../utils";
 import Tile from "./Tile";
 
 function InGame() {
+  const [gridNums, toggleGridNums] = useState<number[]>([]);
   const [gridSize, resetGame] = useMemoryGameStore((state) => [
     state.gridSize,
     state.resetGame,
   ]);
-  const gridNums = randomizeNumbers();
+
+  useEffect(() => {
+    toggleGridNums(randomizeNumbers());
+  }, []);
 
   return (
     <>
