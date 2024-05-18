@@ -1,31 +1,21 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # JoyRover
+
+Feeling bored or stressed? Take a break and have some fun!
+
+Introducing JoyRover, a dynamic platform crafted with React, Typescript and powered by Zustand, offering an immersive experience through two interactive games: Memory Game and Tic Tac Toe. Dive into a world of entertainment and challenge your mind with these captivating games designed to bring joy and excitement to your day. Whether you're sharpening your memory skills or engaging in strategic gameplay, JoyRover provides endless hours of fun for players of all ages. Join us on JoyRover and embark on a journey of endless joy and entertainment!
+
+*  The site is still in development mode, your feedback is appreciated.
+*  Stay tuned for exciting additions such as customizable themes, background music options, and new games.
+*  Have an idea or interested in collaborating on fresh game concepts? Reach out to me at ykandimalla@gmail.com.
+*  Crafted with React, Typescript, Zustand.
+
+# Screenshots
+
+![Untitled (4)](https://github.com/yaswanth6699/JoyRover/assets/42403942/cf2ac0de-64ed-45e8-823f-f6432244e440)
+
+# Link
+[https://joy-rover.vercel.app/](https://joy-rover.vercel.app/)
+
+
+
