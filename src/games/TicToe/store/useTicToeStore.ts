@@ -45,7 +45,7 @@ const WinningPatterns = [
   [2, 4, 6],
 ];
 
-const initialState: TTInitialState = {
+export const initialState: TTInitialState = {
   mode: GameModes.INGAME,
   playerMove: PlayerMoves.X,
   moves: new Map(),

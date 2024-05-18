@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { StyledButton } from "../../../GlobalStyles";
 import { useMemoryGameStore } from "../store/useMemoryGameStore";
 import { GridContainer } from "../styles";
@@ -10,7 +9,7 @@ function InGame() {
     state.gridSize,
     state.resetGame,
   ]);
-  const gridNums = useMemo(() => randomizeNumbers(), []);
+  const gridNums = randomizeNumbers();
 
   return (
     <>

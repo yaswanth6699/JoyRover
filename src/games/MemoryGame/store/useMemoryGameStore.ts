@@ -33,7 +33,7 @@ type MemoryStoreSetters = {
 
 type MemoryStore = MemoryStoreVals & MemoryStoreSetters;
 
-const initialState: MemoryStoreVals = {
+export const initialState: MemoryStoreVals = {
   gridSize: 6,
   gameLevel: GameLevels.Beginner,
   mode: GameModes.LEVEL,
